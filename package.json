@@ -39,11 +39,5 @@
   },
   "bugs": {
     "url": "https://github.com/dawichi/dawichi-card/issues"
-  },
-  "dependencies": {
-    "@types/boxen": "^3.0.1"
-  },
-  "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
   }
 }
