@@ -4,10 +4,10 @@
 ```bash
 npx dawichi
 ```
-
+![sample-img](./npxdawichi.png)
 ---
 
-> nnpm card inspired by [bitandbang](https://github.com/bnb/bitandbang)
+nnpm card inspired by [bitandbang](https://github.com/bnb/bitandbang)
 
 #### Replication guide:
 
