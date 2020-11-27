@@ -1,6 +1,6 @@
 {
   "name": "dawichi",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A personal card for David M. Fajardo (@dawichi)",
   "main": "/bin/card.js",
   "bin": {
