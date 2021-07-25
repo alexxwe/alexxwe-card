@@ -16,13 +16,13 @@ const options = {
 // Text + chalk definitions
 const data = {
 	name: chalk.white('              David M. Fajardo'),
-	handle: chalk.white('dawichi'),
-	work: chalk.white('Sysadmin and javascript developer'),
+	alias: chalk.white('dawichi'),
+	work: chalk.white('Software developer'),
 	twitter: chalk.gray('https://twitter.com/') + chalk.blue('dawichi_'),
 	npm: chalk.gray('https://npmjs.com/') + chalk.red('~dawichi'),
 	github: chalk.gray('https://github.com/') + chalk.green('dawichi'),
 	linkedin: chalk.gray('https://linkedin.com/in/') + chalk.yellow('dawichi'),
-	web: chalk.magenta('https://dawichi.github.io'),
+	web: chalk.magenta('https://dawichi.dev'),
 	labelWork: chalk.white.bold('       Work:'),
 	labelOpenSource: chalk.white.bold('Open Source:'),
 	labelTwitter: chalk.white.bold('    Twitter:'),
@@ -33,8 +33,8 @@ const data = {
 }
 
 // Actual strings we're going to output
-const newline = '\n'
-const heading = `${data.name} | ${data.handle}`
+const new__line = '\n'
+const title = `${data.name} | ${data.alias}`
 const working = `${data.labelWork}  ${data.work}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
@@ -43,13 +43,13 @@ const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
 
 // Put all our output together into a single variable so we can use boxen effectively
-const output = heading + // data.name + data.handle
-	newline + newline + // Add one whole blank line
-	working + newline + newline + // data.labelWork + data.work
-	npming + newline + // data.labelnpm + data.npm
-	githubing + newline + // data.labelGitHub + data.github
-	twittering + newline + // data.labelTwitter + data.twitter
-	linkedining + newline + // data.labelLinkedIn + data.linkedin
+const output = title + // data.name + data.alias
+	new__line + new__line + // Add one whole blank line
+	working + new__line + new__line + // data.labelWork + data.work
+	npming + new__line + // data.labelnpm + data.npm
+	githubing + new__line + // data.labelGitHub + data.github
+	twittering + new__line + // data.labelTwitter + data.twitter
+	linkedining + new__line + // data.labelLinkedIn + data.linkedin
 	webing// data.labelWeb + data.web
 
 fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.green(boxen(output, options)))
