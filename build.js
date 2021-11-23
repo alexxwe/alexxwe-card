@@ -15,14 +15,14 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-	name: chalk.white('              David M. Fajardo'),
-	alias: chalk.white('dawichi'),
-	work: chalk.white('Software developer'),
-	twitter: chalk.gray('https://twitter.com/') + chalk.blue('dawichi_'),
-	npm: chalk.gray('https://npmjs.com/') + chalk.red('~dawichi'),
-	github: chalk.gray('https://github.com/') + chalk.green('dawichi'),
-	linkedin: chalk.gray('https://linkedin.com/in/') + chalk.yellow('dawichi'),
-	web: chalk.magenta('https://dawichi.dev'),
+	name: chalk.white('              Alex Paz'),
+	alias: chalk.white('alexxwe'),
+	work: chalk.white('Telecom engineering'),
+	twitter: chalk.gray('https://twitter.com/') + chalk.blue('alexxwe'),
+	npm: chalk.gray('https://npmjs.com/') + chalk.red('~alexxwe'),
+	github: chalk.gray('https://github.com/') + chalk.green('alexxwe'),
+	linkedin: chalk.gray('https://linkedin.com/in/') + chalk.yellow('alexxwe'),
+	web: chalk.magenta('https://alexxwe.dev'),
 	labelWork: chalk.white.bold('       Work:'),
 	labelOpenSource: chalk.white.bold('Open Source:'),
 	labelTwitter: chalk.white.bold('    Twitter:'),

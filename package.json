@@ -1,16 +1,15 @@
 {
-  "name": "dawichi",
-  "version": "3.0.0",
-  "description": "A personal card for David M. Fajardo (@dawichi)",
+  "name": "alexxwe",
+  "version": "0.1.0",
+  "description": "A personal card for Alex Paz (@alexxwe)",
   "main": "/bin/card.js",
   "bin": {
-    "dawichi": "./bin/card.js"
+    "alexxwe": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dawichi/dawichi-card.git"
+    "url": "git+https://github.com/alexxwe/alexxwe-card.git"
   },
-  "homepage": "https://dawichi.github.io/",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -26,7 +25,7 @@
     "npx card",
     "business card"
   ],
-  "author": "David M. Fajardo",
+  "author": "Alex Paz",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -38,6 +37,6 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/dawichi/dawichi-card/issues"
+    "url": "https://github.com/alexxwe/alexxwe-card/issues"
   }
 }

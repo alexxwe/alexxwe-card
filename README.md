@@ -2,7 +2,7 @@
 
 ### Usage: npm
 ```bash
-npx dawichi
+npx alexxwe
 ```
 ![sample-img](./npxdawichi.png)
 ---
